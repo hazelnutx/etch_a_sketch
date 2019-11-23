@@ -1,0 +1,22 @@
+:root {
+    --rows: 1;
+    --columns: 1;
+}
+
+/* .resetButton {
+    text-align: center;
+}
+
+*/
+#gridContainer {
+    display: grid;
+    grid-gap: 0.1em;
+    grid-template-rows: repeat(var(--rows), 1fr);
+    grid-template-columns: repeat(var(--columns), 1fr)
+}
+
+.gridItem {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+}
